@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import projects from '../data/projects.json'
 import Reveal from './Reveal'
-import images from '../assets/projet/grafana.png'
 export default function Projects() {
   const [open, setOpen] = useState(null)
 

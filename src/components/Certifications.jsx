@@ -1,8 +1,6 @@
 import { useState } from 'react'
 import certifications from '../data/certifications.json'
 import Reveal from './Reveal'
-import badge from '../assets/cisco1.png'
-
 export default function Certifications() {
   const [open, setOpen] = useState(null)
 

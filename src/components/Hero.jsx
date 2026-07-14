@@ -1,5 +1,5 @@
 import profile from '../data/profile.json'
-import photo from './assets/portrait.png'
+import photo from '../assets/portrait.png'
 import Reveal from './Reveal'
 
 export default function Hero() {
