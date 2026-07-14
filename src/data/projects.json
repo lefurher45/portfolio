@@ -5,10 +5,10 @@
   "summary": "Simulation d'opérations Red Team en environnement virtuel contrôlé à l'aide de plusieurs frameworks Command & Control (C2).",
   "description": "Réalisation d'un laboratoire Red Team visant à mettre en œuvre et comparer plusieurs frameworks Command & Control (C2), notamment Mythic C2, Havoc C2, Sliver C2 et Adaptix C2. Le projet consistait à déployer une infrastructure C2, générer et exécuter des agents sur des machines virtuelles de test, établir des communications sécurisées avec le serveur C2 et réaliser des opérations de post-exploitation autorisées dans un environnement de laboratoire. Cette expérience m'a permis de mieux comprendre le fonctionnement des infrastructures C2, les différentes approches proposées par chaque framework ainsi que les techniques utilisées lors des tests d'intrusion et des simulations Red Team.",
   "images": [
-    "/src/assets/projet/MythicC2.webp",
-    "/src/assets/projet/havoc.png",
-    "/src/assets/projet/silverC2.webp",
-    "/src/assets/projet/AdaptixC2.png"
+    "/assets/projet/MythicC2.webp",
+    "/assets/projet/havoc.png",
+    "/assets/projet/silverC2.webp",
+    "/assets/projet/AdaptixC2.png"
   ],
   "referenceUrl": "https://github.com/lefurher45/mythic_c2.git",
   "tags": [
