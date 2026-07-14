@@ -5,10 +5,10 @@
   "summary": "Simulation d'opérations Red Team en environnement virtuel contrôlé à l'aide de plusieurs frameworks Command & Control (C2).",
   "description": "Réalisation d'un laboratoire Red Team visant à mettre en œuvre et comparer plusieurs frameworks Command & Control (C2), notamment Mythic C2, Havoc C2, Sliver C2 et Adaptix C2. Le projet consistait à déployer une infrastructure C2, générer et exécuter des agents sur des machines virtuelles de test, établir des communications sécurisées avec le serveur C2 et réaliser des opérations de post-exploitation autorisées dans un environnement de laboratoire. Cette expérience m'a permis de mieux comprendre le fonctionnement des infrastructures C2, les différentes approches proposées par chaque framework ainsi que les techniques utilisées lors des tests d'intrusion et des simulations Red Team.",
   "images": [
-    "/assets/projet/MythicC2.webp",
-    "/assets/projet/havoc.png",
-    "/assets/projet/silverC2.webp",
-    "/assets/projet/AdaptixC2.png"
+    "/uploads/MythicC2.webp",
+    "/uploads/havoc.png",
+    "/uploads/silverC2.webp",
+    "/uploads/AdaptixC2.png"
   ],
   "referenceUrl": "https://github.com/lefurher45/mythic_c2.git",
   "tags": [
@@ -32,8 +32,8 @@
   "summary": "Mise en place d'une infrastructure de supervision système permettant de surveiller plusieurs machines dans un réseau local grâce à Grafana et des outils de collecte de métriques.",
   "description": "Réalisation d'un laboratoire de supervision système dans un environnement virtualisé composé de deux machines connectées au même réseau : une machine Windows et une machine Ubuntu Linux. Le projet consistait à déployer une solution de monitoring basée sur Grafana afin de collecter, visualiser et analyser les performances des systèmes surveillés. J'ai configuré la collecte des métriques CPU, mémoire RAM, utilisation du stockage disque, charge système et disponibilité des machines à l'aide d'agents de supervision. Des tableaux de bord personnalisés ont été créés pour faciliter l'analyse en temps réel de l'état des infrastructures. Des scénarios de surcharge ont également été simulés afin d'observer le comportement des systèmes lors d'une utilisation abusive des ressources (saturation RAM, forte utilisation disque). Enfin, j'ai mis en place un système d'alertes permettant de détecter automatiquement les anomalies et d'avertir en cas de dépassement de seuils critiques. Ce projet m'a permis d'approfondir mes compétences en administration système, supervision d'infrastructures, analyse de performances et détection proactive d'incidents.",
   "images": [
-    "/src/assets/projet/grafana.png",
-    "/src/assets/projet/grafana2.jpeg"
+    "/uploads/grafana.png",
+    "/uploads/grafana2.jpeg"
   ],
   "referenceUrl": "",
   "tags": [
@@ -58,8 +58,8 @@
   "summary": "Évaluation de la sécurité d'un environnement informatique à travers des phases de reconnaissance, analyse réseau, détection de vulnérabilités et exploitation contrôlée.",
   "description": "Réalisation d'un laboratoire de test d'intrusion dans un environnement virtuel contrôlé afin d'évaluer la sécurité d'un système cible. Le projet consistait à reproduire les différentes étapes d'un audit de sécurité : collecte d'informations, analyse des services exposés, identification des vulnérabilités et validation des risques. J'ai utilisé Nmap pour effectuer la reconnaissance réseau, identifier les ports ouverts, les services actifs et les versions utilisées. Wireshark a été utilisé pour analyser le trafic réseau, comprendre les échanges entre les machines et détecter d'éventuelles anomalies dans les communications. Une phase d'analyse des vulnérabilités a été réalisée avec Nessus afin d'identifier les faiblesses présentes sur les systèmes, notamment au niveau des services réseau comme SSH et d'autres configurations sensibles. Enfin, Metasploit Framework a été utilisé dans un cadre de laboratoire pour valider certaines vulnérabilités identifiées et comprendre les mécanismes d'exploitation associés. Ce projet m'a permis de renforcer mes compétences en reconnaissance, analyse de vulnérabilités, exploitation contrôlée, sécurité réseau et méthodologie de test d'intrusion.",
   "images": [
-    "/src/assets/projet/nmap.jpeg",
-    "/src/assets/projet/metasploit.jpeg"
+    "/uploads/nmap.jpeg",
+    "/uploads/metasploit.jpeg"
   ],
   "referenceUrl": "",
   "tags": [
@@ -85,8 +85,8 @@
   "summary": "Simulation d'une campagne de phishing contrôlée afin d'étudier les techniques utilisées par les attaquants et renforcer la détection des tentatives d'hameçonnage.",
   "description": "Réalisation d'un laboratoire de simulation de phishing dans un environnement contrôlé afin d'analyser les mécanismes utilisés lors des campagnes d'hameçonnage. Le projet consistait à créer une fausse interface web reproduisant un scénario réaliste afin d'étudier les différents éléments qui rendent une attaque de phishing efficace : conception de pages frauduleuses, manipulation psychologique, utilisation de liens trompeurs et techniques d'ingénierie sociale. J'ai également étudié le fonctionnement des campagnes malveillantes basées sur l'envoi de messages contenant des liens frauduleux, ainsi que les méthodes utilisées par les attaquants pour inciter les utilisateurs à divulguer des informations sensibles. Une analyse des facteurs humains a été réalisée afin de comprendre pourquoi certaines victimes ne détectent pas ces tentatives. Enfin, le projet a permis d'identifier les bonnes pratiques de protection : vérification des URL, analyse des messages suspects, utilisation de mécanismes d'authentification renforcée et sensibilisation des utilisateurs. Cette expérience m'a permis de développer mes compétences en sécurité offensive, ingénierie sociale, analyse des menaces et sensibilisation cybersécurité.",
   "images": [
-    "/src/assets/projet/phishing1.jpeg",
-    "/src/assets/projet/phishing2.jpeg"
+    "/uploads/phishing1.jpeg",
+    "/uploads/phishing2.jpeg"
   ],
   "referenceUrl": "",
   "tags": [
@@ -111,8 +111,8 @@
   "summary": "Évaluation de la sécurité d'un réseau Wi-Fi personnel à travers l'analyse des vulnérabilités, des attaques sans fil et des techniques de protection.",
   "description": "Réalisation d'un laboratoire d'audit de sécurité Wi-Fi dans un environnement autorisé afin d'étudier les différentes menaces pouvant affecter les réseaux sans fil. Le projet consistait à analyser la robustesse d'un réseau Wi-Fi domestique, comprendre les mécanismes d'authentification et identifier les risques liés aux mauvaises configurations. J'ai utilisé des outils d'analyse de sécurité sans fil tels qu'Aircrack-ng afin d'étudier les protocoles de communication Wi-Fi et les méthodes utilisées lors des tests d'intrusion sur réseaux sans fil. Des techniques de génération de dictionnaires avec Crunch ont également été étudiées afin de comprendre l'importance de l'utilisation de mots de passe complexes et résistants. Le laboratoire a également permis d'analyser les risques liés aux attaques par désauthentification et aux faux points d'accès (Rogue Access Point / Evil Twin), afin de comprendre comment un attaquant peut tenter de tromper un utilisateur via un réseau Wi-Fi frauduleux. Enfin, j'ai étudié les mesures de protection permettant de réduire ces risques : utilisation de WPA2/WPA3, mots de passe robustes, désactivation des connexions automatiques, vérification des réseaux disponibles et sensibilisation des utilisateurs. Ce projet m'a permis de renforcer mes compétences en sécurité des réseaux sans fil, analyse des menaces et bonnes pratiques de protection Wi-Fi.",
   "images": [
-    "/src/assets/projet/wifi1.png",
-    "/src/assets/projet/wifi2.jpeg"
+    "/uploads/wifi1.png",
+    "/uploads/wifi2.jpeg"
   ],
   "referenceUrl": "",
   "tags": [
