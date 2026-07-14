@@ -1,0 +1,26 @@
+[
+  {
+    "id": "okay",
+    "title": "Audit de sécurité",
+    "description": "Analyse de votre infrastructure (réseau, postes, serveurs) pour identifier les vulnérabilités et vous proposer un plan de remédiation priorisé.",
+    "icon": "shield"
+  },
+  {
+    "id": "upervision-reseau",
+    "title": "Supervision réseau",
+    "description": "Mise en place d'outils de monitoring pour surveiller la disponibilité, les performances et détecter les incidents en temps réel.",
+    "icon": "radar"
+  },
+  {
+    "id": "automatisation",
+    "title": "Automatisation de tâches",
+    "description": "Scripts et outils pour automatiser les tâches d'administration système récurrentes (sauvegardes, déploiements, contrôles).",
+    "icon": "gear"
+  },
+  {
+    "id": "formation-sensibilisation",
+    "title": "Formation & sensibilisation",
+    "description": "Sessions de sensibilisation aux bonnes pratiques de cybersécurité pour vos équipes : phishing, mots de passe, hygiène numérique.",
+    "icon": "users"
+  }
+]

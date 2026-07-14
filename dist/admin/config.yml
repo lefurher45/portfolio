@@ -1,0 +1,104 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Identity + Git Gateway doivent être activés dans Netlify :
+# Site settings > Identity > Enable Identity, puis Services > Git Gateway > Enable.
+# Ensuite, invite-toi comme utilisateur dans Identity pour pouvoir te connecter sur /admin.
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "profil"
+    label: "Profil"
+    files:
+      - file: "src/data/profile.json"
+        label: "Informations personnelles"
+        name: "profile"
+        fields:
+          - { label: "Nom affiché", name: "name", widget: "string" }
+          - { label: "Nom complet", name: "fullName", widget: "string" }
+          - { label: "Titre", name: "title", widget: "string" }
+          - { label: "Phrase d'accroche", name: "tagline", widget: "text" }
+          - { label: "Localisation", name: "location", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Téléphone", name: "phone", widget: "string" }
+          - { label: "GitHub", name: "github", widget: "string" }
+          - { label: "LinkedIn", name: "linkedin", widget: "string" }
+          - { label: "Fichier CV (chemin public)", name: "cvFile", widget: "file" }
+          - { label: "Bio", name: "bio", widget: "text" }
+
+  - name: "competences"
+    label: "Compétences"
+    files:
+      - file: "src/data/skills.json"
+        label: "Compétences, outils, langages"
+        name: "skills"
+        fields:
+          - label: "Compétences"
+            name: "skills"
+            widget: "list"
+            fields:
+              - { label: "Nom", name: "name", widget: "string" }
+              - { label: "Niveau (texte)", name: "level", widget: "string" }
+              - { label: "Niveau (%)", name: "levelPct", widget: "number" }
+              - { label: "Description", name: "description", widget: "text" }
+          - label: "Outils"
+            name: "tools"
+            widget: "list"
+            fields:
+              - { label: "Nom", name: "name", widget: "string" }
+              - { label: "Niveau", name: "level", widget: "string", required: false }
+          - label: "Langages"
+            name: "languages"
+            widget: "list"
+            field: { label: "Langage", name: "language", widget: "string" }
+
+  - name: "certifications"
+    label: "Certifications"
+    files:
+      - file: "src/data/certifications.json"
+        label: "Liste des certifications"
+        name: "certifications"
+        fields:
+          - label: "Certifications"
+            name: "certifications"
+            widget: "list"
+            fields:
+              - { label: "Identifiant unique", name: "id", widget: "string" }
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Organisme", name: "issuer", widget: "string" }
+              - { label: "Date", name: "date", widget: "string" }
+              - { label: "Badge (image)", name: "badge", widget: "image", required: false }
+              - { label: "Lien de vérification", name: "verifyUrl", widget: "string", required: false }
+              - label: "Sujets couverts"
+                name: "topics"
+                widget: "list"
+                field: { label: "Sujet", name: "topic", widget: "string" }
+
+  - name: "projets"
+    label: "Projets"
+    files:
+      - file: "src/data/projects.json"
+        label: "Liste des projets"
+        name: "projects"
+        fields:
+          - label: "Projets"
+            name: "projects"
+            widget: "list"
+            fields:
+              - { label: "Identifiant unique", name: "id", widget: "string" }
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Résumé (1 phrase)", name: "summary", widget: "string" }
+              - { label: "Description complète", name: "description", widget: "text" }
+              - label: "Photos du projet"
+                name: "images"
+                widget: "list"
+                field: { label: "Image", name: "image", widget: "image" }
+              - { label: "Lien de référence", name: "referenceUrl", widget: "string", required: false }
+              - label: "Tags"
+                name: "tags"
+                widget: "list"
+                field: { label: "Tag", name: "tag", widget: "string" }
+              - { label: "Date", name: "date", widget: "string" }

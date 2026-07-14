@@ -1,0 +1,136 @@
+{
+  "skills": [
+    {
+      "name": "Cyber hygiène",
+      "level": "expert",
+      "levelPct": 100,
+      "description": "Bonnes pratiques de sécurité au quotidien : gestion des accès, mises à jour, hygiène des mots de passe et réduction de la surface d'attaque."
+    },
+    {
+      "name": "Détection et prévention des menaces",
+      "level": "expert",
+      "levelPct": 80,
+      "description": "Identification de comportements suspects, analyse de journaux et mise en place de mesures préventives contre les menaces informatiques."
+    },
+    {
+      "name": "Sécurité réseau",
+      "level": "Intermédiaire",
+      "levelPct": 60,
+      "description": "Sécurisation des infrastructures réseau : segmentation, pare-feu, analyse de trafic et durcissement des configurations."
+    },
+    {
+      "name": "Automatisation avec n8n",
+      "level": "En cours",
+      "levelPct": 40,
+      "description": "Conception de workflows automatisés pour réduire les tâches répétitives et fiabiliser les processus internes."
+    },
+    {
+      "name": "",
+      "level": "En cours",
+      "levelPct": 40,
+      "description": "Conception de workflows automatisés pour réduire les tâches répétitives et fiabiliser les processus internes."
+    },
+    {
+    "name": "Tests d'intrusion (Pentest)",
+    "level": "Intermédiaire",
+    "levelPct": 70,
+    "description": "Réalisation de tests d'intrusion en environnement contrôlé sur des infrastructures réseau, des applications web et des réseaux Wi-Fi afin d'identifier les vulnérabilités."
+  },
+  {
+    "name": "Sécurité Offensive (Red Team)",
+    "level": "Intermédiaire",
+    "levelPct": 65,
+    "description": "Utilisation de frameworks Red Team et simulation d'attaques dans des laboratoires contrôlés pour évaluer la sécurité des systèmes."
+  },
+  {
+    "name": "Administration Systèmes",
+    "level": "Intermédiaire",
+    "levelPct": 70,
+    "description": "Installation, configuration et maintenance de systèmes Linux et Windows, ainsi que déploiement de services réseau et serveurs web."
+  },
+  {
+    "name": "Administration Réseau",
+    "level": "Intermédiaire",
+    "levelPct": 70,
+    "description": "Configuration de routeurs, commutateurs et topologies réseau avec GNS3 pour la mise en place et l'administration d'infrastructures réseau."
+  },
+  {
+    "name": "Virtualisation",
+    "level": "Intermédiaire",
+    "levelPct": 75,
+    "description": "Création et gestion de machines virtuelles avec VMware, VirtualBox et GNS3 pour le déploiement de laboratoires de cybersécurité."
+  },
+  {
+    "name": "Sécurité des Applications Web",
+    "level": "Intermédiaire",
+    "levelPct": 65,
+    "description": "Évaluation de la sécurité des applications web à l'aide d'outils d'énumération et de recherche de vulnérabilités."
+  },
+  {
+    "name": "Analyse de Vulnérabilités",
+    "level": "Intermédiaire",
+    "levelPct": 75,
+    "description": "Identification et analyse des vulnérabilités grâce à des outils de scan et de reconnaissance afin d'améliorer la posture de sécurité."
+  },
+  {
+    "name": "Simulation de Phishing",
+    "level": "Intermédiaire",
+    "levelPct": 60,
+    "description": "Conception et exécution de campagnes de sensibilisation au phishing dans un environnement de laboratoire contrôlé."
+  },
+  {
+    "name": "Prompt Engineering",
+    "level": "Avancé",
+    "levelPct": 85,
+    "description": "Conception de prompts optimisés pour les modèles d'IA afin d'automatiser des tâches, améliorer la productivité et générer des solutions techniques."
+  },
+  {
+    "name": "Déploiement de Services",
+    "level": "Intermédiaire",
+    "levelPct": 70,
+    "description": "Installation et configuration de serveurs web et de services réseau dans des environnements Linux."
+  }
+  ],
+  "tools": [
+    { "name": "Administration Linux", "level": "Intermédiaire" },
+    { "name": "Administration Windows", "level": "Intermédiaire" },
+    { "name": "Grafana", "level": null },
+    { "name": "Zabbix", "level": null },
+    { "name": "Cacti", "level": null },
+    { "name": "Nagios", "level": null },
+    { "name": "Nmap", "level": null },
+    { "name": "Nessus", "level": null },
+    { "name": "Wireshark", "level": null },
+    { "name": "VMware", "level": null },
+    { "name": "VirtualBox", "level": null },
+    { "name": "Cryptographie", "level": null },
+    { "name": "GNS3", "level": "Intermédiaire" },
+  { "name": "Mythic C2", "level": "Intermédiaire" },
+  { "name": "Havoc C2", "level": "Intermédiaire" },
+  { "name": "Adaptix C2", "level": "Débutant" },
+  { "name": "Sliver C2", "level": "Débutant" },
+  { "name": "Gobuster", "level": "Intermédiaire" },
+  { "name": "Hydra", "level": "Intermédiaire" },
+  { "name": "Crunch", "level": "Intermédiaire" },
+  { "name": "Aircrack-ng", "level": "Intermédiaire" },
+  { "name": "John the Ripper", "level": "Débutant" },
+  { "name": "Hashcat", "level": "Débutant" },
+  { "name": "Burp Suite", "level": "Débutant" },
+  { "name": "Metasploit", "level": "Débutant" },
+  { "name": "OpenVAS", "level": "Débutant" },
+  { "name": "Netcat", "level": "Intermédiaire" },
+  { "name": "OpenSSH", "level": "Intermédiaire" },
+  { "name": "Apache", "level": "Intermédiaire" },
+  { "name": "Nginx", "level": "Débutant" },
+  { "name": "Docker", "level": "Débutant" },
+  { "name": "Git", "level": "Intermédiaire" },
+  { "name": "GitHub", "level": "Intermédiaire" },
+  { "name": "WinBox", "level": "Intermédiaire" },
+  { "name": "MikroTik RouterOS", "level": "Intermédiaire" },
+  { "name": "VS Code", "level": "Avancé" },
+  { "name": "Kali Linux", "level": "Intermédiaire" },
+  { "name": "Debian", "level": "Intermédiaire" },
+    { "name": "Forensique", "level": null }
+  ],
+  "languages": ["Python", "Java", "PHP", "C", "HTML/CSS", "Bash", "JavaScript"]
+}

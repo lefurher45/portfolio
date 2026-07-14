@@ -1,0 +1,41 @@
+{
+  "education": [
+    {
+      "year": "2025 — en cours",
+      "title": "Licence professionnelle IRT2",
+      "place": "ESGIS"
+    },
+    {
+      "year": "2024",
+      "title": "BAC II, série D",
+      "place": "Lycée Notre Dame de l'Église (NDE)"
+    },
+    {
+      "year": "2023",
+      "title": "BAC I, série D ",
+      "place": "LSCRM"
+    }
+  ],
+  "work": [
+    {
+      "period": "Stage / Projet pratique",
+      "role": "Automatisation des tâches et emails",
+      "place": "W3frame",
+      "points": [
+        "Mise en place de workflows automatisés avec n8n pour simplifier les tâches répétitives.",
+        "Optimisation des processus internes de l'entreprise pour gagner du temps et réduire les erreurs.",
+        "Acquisition de compétences pratiques en automatisation et en gestion d'outils numériques."
+      ]
+    },
+    {
+      "period": " Projet pratique",
+      "role": "chargé de la sécurité de l'application",
+      "place": "Novamind",
+      "points": [
+        "Analyse et test des vulnérabilités de l'application.",
+        "Mise en place de mesures de sécurité pour protéger les données des utilisateurs.",
+        "Collaboration avec l'équipe de développement pour intégrer les meilleures pratiques de sécurité dans le cycle de vie du projet."
+      ]
+    }
+  ]
+}

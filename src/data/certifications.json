@@ -1,0 +1,64 @@
+[
+  {
+    "id": "cisco-cyber-intro",
+    "title": "Introduction à la cybersécurité",
+    "issuer": "Cisco",
+    "date": "10/07/2025",
+    "badge": "src/assets/cisco1.png",
+    "verifyUrl": "https://www.credly.com/users/wiyaou-essodong-adolphe-pana",
+    "topics": [
+      "Protection des données",
+      "Détection des menaces",
+      "Vulnérabilités réseau"
+    ]
+  },
+  {
+    "id": "opswat-icip",
+  "title": "Introduction to Critical Infrastructure Protection (ICIP)",
+  "issuer": "OPSWAT Academy",
+  "date": "03/07/2026",
+  "expiryDate": "03/07/2027",
+  "badge": "/src/assets/cisco2.png",
+  "verifyUrl": "https://www.credly.com/badges/0212702d-b81a-424a-a135-b10afc6aff72/public_url",
+  "topics": [
+    "Critical Infrastructure Protection (CIP)",
+    "Critical Infrastructure",
+    "Cybersecurity Fundamentals",
+    "Operational Technology (OT)",
+    "Critical Infrastructure Security"
+  ]
+  },
+  {
+  "id": "linkedin-career-cybersecurity",
+  "title": "Préparer votre carrière dans la cybersécurité",
+  "issuer": "Microsoft & LinkedIn Learning",
+  "date": "13/07/2026",
+  "badge": "/src/assets/link1.png",
+  "verifyUrl": "https://www.linkedin.com/learning/certificates/da63ec20d346c9bf27d8e9a78408759c9a3c262c16a7e488ea6d89ef44a90195?trk=share_certificate",
+  "topics": [
+    "Cybersecurity Fundamentals",
+    "Cybersecurity Terminology",
+    "Threat Landscape",
+    "Microsoft Security",
+    "Security Copilot"
+  ]
+},
+{
+  "id": "unodc-cybercrime",
+  "title": "Cybercriminalité",
+  "issuer": "United Nations Office on Drugs and Crime (UNODC)",
+  "date": "01/07/2026",
+  "badge": "/src/assets/cybercriminalite.png",
+  "verifyUrl": "https://elearningunodc.org/pluginfile.php/1/tool_certificate/issues/1782867065/0761424990AP.pdf",
+  "topics": [
+    "Cybercrime Fundamentals",
+    "Cyber-Dependent Crimes",
+    "Cyber-Enabled Crimes",
+    "Cybercrime Investigation",
+    "Cybercrime Prevention",
+    "Digital Evidence",
+    "International Cybercrime Frameworks"
+  ],
+  "description": "Cours en ligne de 7 modules présentant les fondamentaux de la cybercriminalité, les cybercrimes dépendants et facilités par les technologies numériques, les tendances actuelles, les mécanismes de prévention, ainsi que les approches de lutte contre la cybercriminalité dans les domaines de la justice pénale, des politiques publiques et de la coopération internationale."
+}
+]
